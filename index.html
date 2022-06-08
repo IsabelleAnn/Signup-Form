@@ -7,12 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Signup Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8a8ee493a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="img-container"><img src="images/20210818_160429.jpg" alt="stream in forest"></div>
+
+    <div id="logo-container">
+        <h1 id="logo"><i class="fa-solid fa-droplet"></i>Natural Springs</h1>
     </div>
+    <div id="form-container">
+        <div id="top-section">
+            <h2>Fulfill your dream of seeing the most beautiful natural springs in America. Enjoy the serene views and drink the finest water! <br> Sign up <em>now</em> to get more information or book a tour.</h2>
+            <br>
+            <h2>You <em>know</em> you want to.</h2>
+        </div>
+        <form action="">
+
+            <div id="mid-section">
+                <h2>Book a tour now!</h2>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="data">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
+                </div>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="data">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </form>
+
+
+    </div>
+
 </body>
 
 </html>
